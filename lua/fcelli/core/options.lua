@@ -1,8 +1,8 @@
 local opt = vim.opt
 
 -- Line numbers
-opt.relativenumber = true
 opt.number = true
+opt.relativenumber = true
 
 -- Tabs and indentation
 opt.tabstop = 2
@@ -21,6 +21,7 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
+opt.showmode = false  -- Do not show the mode - it is already in the status line
 
 -- Backspace
 opt.backspace = "indent,eol,start"
