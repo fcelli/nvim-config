@@ -4,6 +4,6 @@ return {
 	config = function()
 		-- Simple and easy statusline.
 		local statusline = require("mini.statusline")
-		statusline.setup({})
+		statusline.setup({ use_icons = true })
 	end,
 }
