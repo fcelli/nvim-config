@@ -16,8 +16,8 @@ return {
 		}
 		dashboard.section.buttons.val = {
 			dashboard.button("n", "   New file", ":ene <BAR> startinsert <CR>"),
-			dashboard.button("f", "󰮗   Find file", ":cd $HOME | Telescope find_files<CR>"),
-			dashboard.button("e", "   File Explorer", ":cd $HOME | Neotree<CR>"),
+			dashboard.button("f", "󰮗   Find file", ":Telescope find_files<CR>"),
+			dashboard.button("e", "   File Explorer", ":Neotree<CR>"),
 			dashboard.button("r", "   Recent", ":Telescope oldfiles<CR>"),
 			dashboard.button("q", "󰗼   Quit", ":qa<CR>"),
 		}
